@@ -1,0 +1,39 @@
+@media screen and (max-width: 400px) {
+  #navbarNav li {
+    margin: auto;
+  }
+
+  #contact{
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+
+  #con_card div{
+    position: static;
+  }
+
+
+  #volunteer {
+    background: none;
+  }
+
+  #help {
+    background: none;
+  }
+
+  #hh_img2 img{
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  #helping_hand:hover #hh_img2 img{
+    transform: scale(0.90);
+  }
+
+  #footer{
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+}

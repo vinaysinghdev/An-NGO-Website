@@ -1,0 +1,52 @@
+@media screen and (max-width: 400px) {
+  #navbarNav li {
+    margin: auto;
+  }
+
+  .top_carousel .carousel-item img {
+    margin: 40px 0;
+  }
+
+  .top_carousel .carousel-item h1 {
+    font-size: 1rem;
+  }
+
+  .top_carousel .carousel-item h5 {
+    font-size: 0.7rem;
+  }
+
+  #welcome .offset-md-2 {
+    background: none;
+  }
+
+  #achieve h1 {
+    font-size: 1.5rem;
+  }
+
+  .count_div p {
+    font-size: 1rem;
+  }
+
+  #volunteer {
+    background: none;
+  }
+
+  #help {
+    background: none;
+  }
+
+  #hh_img2 img{
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  #helping_hand:hover #hh_img2 img{
+    transform: scale(0.90);
+  }
+
+  #footer{
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+}

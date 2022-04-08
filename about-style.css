@@ -1,0 +1,470 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Fredoka+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+html,
+body {
+  background-color: #f7f7f7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fredoka One", cursive;
+}
+
+/******************** scrollbar ********************/
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  width: 5px;
+}
+
+/******************** navbar ********************/
+
+#nav_bar {
+  background-color: white;
+  box-shadow: 0px 2px 10px 4px rgba(0, 0, 0, 0.1);
+}
+
+#navbarNav li {
+  margin: 0 2px;
+  width: 110px;
+  transition: all 0.5s ease;
+}
+
+#navbarNav li:hover {
+  border-radius: 10px;
+  background-color: red;
+}
+
+#navbarNav li a {
+  color: black;
+  transition: all 0.5s ease;
+}
+
+#navbarNav li a:hover {
+  color: white;
+  font-weight: bold;
+}
+
+#navbarNav .active {
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+#nav_img {
+  position: relative;
+  animation-name: nav_img;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+}
+
+#nav_a1 {
+  position: relative;
+  animation-name: nav_a1;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+}
+
+#nav_a2 {
+  position: relative;
+  animation-name: nav_a2;
+  animation-duration: 2.5s;
+  animation-timing-function: ease;
+}
+
+#nav_a3 {
+  position: relative;
+  animation-name: nav_a3;
+  animation-duration: 3s;
+  animation-timing-function: ease;
+}
+
+#nav_a4 {
+  position: relative;
+  animation-name: nav_a4;
+  animation-duration: 3.5s;
+  animation-timing-function: ease;
+}
+
+#nav_a5 {
+  position: relative;
+  animation-name: nav_a5;
+  animation-duration: 4s;
+  animation-timing-function: ease;
+}
+
+@keyframes nav_img {
+  0% {
+    left: -100px;
+    transform: rotate(180deg);
+  }
+
+  100% {
+    left: 0;
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes nav_a1 {
+  0% {
+    top: -150px;
+  }
+
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes nav_a2 {
+  0% {
+    top: -150px;
+  }
+
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes nav_a3 {
+  0% {
+    top: -150px;
+  }
+
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes nav_a4 {
+  0% {
+    top: -150px;
+  }
+
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes nav_a5 {
+  0% {
+    top: -150px;
+  }
+
+  100% {
+    top: 0;
+  }
+}
+
+/************* swiper  ***********/
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 650px;
+  background: #000;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  color: #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 40px 60px;
+}
+
+.parallax-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 130%;
+  height: 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-slide .title {
+  font-size: 41px;
+  font-weight: 300;
+}
+
+.swiper-slide .subtitle {
+  font-size: 21px;
+}
+
+.swiper-slide .text {
+  font-size: 14px;
+  max-width: 400px;
+  line-height: 1.3;
+}
+
+h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.swiper p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  color: lightcyan;
+}
+
+.fa {
+  position: relative;
+}
+
+.fa1 {
+  position: absolute;
+  font-size: 40px;
+  top: -45px;
+  left: -20px;
+  transform: rotate(100deg);
+}
+
+/* =================================== box shadow ====================== */
+
+.bx1 {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.bx2 {
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.bx3 {
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+/* ================================================================================= */
+
+.container .bb1 {
+  margin: 0 auto;
+  width: 250px;
+  height: 200px;
+  position: relative;
+  perspective: 1000px;
+}
+
+.bb2 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+.item7 {
+  display: block;
+  position: absolute;
+  background: #000;
+  width: 250px;
+  height: 200px;
+  line-height: 200px;
+  font-size: 5em;
+  text-align: center;
+  color: #fff;
+  opacity: 0.95;
+  border-radius: 10px;
+}
+
+.a {
+  transform: rotateY(0deg) translateZ(250px);
+}
+.b {
+  transform: rotateY(60deg) translateZ(250px);
+}
+.c {
+  transform: rotateY(120deg) translateZ(250px);
+}
+.d {
+  transform: rotateY(180deg) translateZ(250px);
+}
+.e {
+  transform: rotateY(240deg) translateZ(250px);
+}
+.f {
+  transform: rotateY(300deg) translateZ(250px);
+}
+
+.next1 {
+  color: black;
+  width: 100px;
+  position: relative;
+  top: 80px;
+  left: -10;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  cursor: pointer;
+  background: lightblue;
+  border-radius: 5px;
+  border-top: 1px solid #fff;
+  box-shadow: 0 5px 0 #999;
+  transition: box-shadow 0.1s, top 0.1s;
+}
+
+.prev1 {
+  color: black;
+  width: 100px;
+  position: relative;
+  top: 35px;
+  left: 120px;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  cursor: pointer;
+  background: lightblue;
+  border-radius: 5px;
+  border-top: 1px solid #fff;
+  box-shadow: 0 5px 0 #999;
+  transition: box-shadow 0.1s, top 0.1s;
+}
+
+.next1:hover,
+.prev1:hover {
+  color: #000;
+}
+.next1:active {
+  top: 85px;
+  box-shadow: 0 1px 0 #999;
+}
+
+.prev1:active {
+  top: 37px;
+  box-shadow: 0 1px 0 #999;
+}
+
+.next {
+  right: 5em;
+}
+.prev {
+  left: 5em;
+}
+
+/* ============================ accordian1 ============================== */
+
+.accordian1 {
+  background-color: #2fa4ff;
+}
+
+.accordion {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  /* border-radius: 30px; */
+}
+
+/* ============================================= media file ================================ */
+
+@media only screen and (max-width: 1000px) {
+  .swiper img {
+    display: none;
+  }
+
+  .swiper {
+    height: 400px;
+  }
+
+  .prev1 {
+    display: none;
+  }
+
+  .next1 {
+    position: relative;
+    top: 0px;
+    left: 60px;
+  }
+
+  .next1:active {
+    top: 0px;
+    box-shadow: 0 1px 0 #999;
+  }
+}
+
+
+/********************* footer ********************/
+
+#footer{
+  background: url(img/footer.jpeg);
+  background-size: contain;
+  background-position: bottom;
+  background-attachment: fixed;
+}
+
+#footer .row{
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#footer .row h4{
+  margin: 20px 10px;
+  color: white;
+}
+
+
+#footer .link a{
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 5px 8px;
+  margin: 5px;
+  transition: all .5s ease;
+}
+
+#footer .link a:hover{
+  color: red;
+  transform: scale(1.10);
+}
+
+#footer .f_contact a{
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  display: block;
+  margin: 15px;
+}
+
+
+
+
